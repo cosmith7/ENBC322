@@ -1,0 +1,36 @@
+Catherine Smith
+9.9.2026
+ENBC322
+Homework 1
+
+1. Explain the meaning of O(1), O(log N), O(N), and O(N²).
+
+    Time complexity describes how the number of operations done by an algorithm increases as
+    the input, N, changes. Big O notation indicates the average and worse case scenarios.
+    
+    An O(1) algorithm only takes 1 operation to complete, regardless of input size. An 
+    example of this is using the .get() function to retrieve a value from dictionaries or maps.
+
+    An O(log N) algorithm demonstrates logarithmic growth in the number of operations needed
+    as the input size grows. An example of this is a binary search algorithm. 
+    An O(log N) algorithm is more ideal than bigger time complexity algorithms like O(N)
+    and O(N^2).
+
+    An O(N) function will, at most, take N amount of operations to complete. An example of
+    this is a search algorithm that looks through each element of an array in order.
+
+    An O(N^2) takes a considerable amount of time, as the number of operations will
+    roughly equal the input size squared. An example of this would be a nested for loop
+    prints every possible pair of elements from a list.
+
+2. Explain how binary search works on a sorted array.
+
+    A binary search algorithm cuts down search time by repeatedly splitting a sorted array 
+    based on your target's value. It checks the array's middle elements and compares it to the
+    target. If the target is smaller than the middle, it searches the left half of the array.
+    If the target is larger than the middle, it searches the right half of the array. This 
+    process repeats until the target is found.
+
+
+3. Set up a Jupyter Notebook environment (if you plan to use Python) and write a simple function.
+    See 'homework1.ipynb'.
